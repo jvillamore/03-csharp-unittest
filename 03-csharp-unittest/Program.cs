@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using StringManipulation;
 
+// [ExcludeFromCodeCoverage]
 var loggerFactory = LoggerFactory.Create(builder =>
        {
            // Add console logger
